@@ -1,0 +1,488 @@
+/* ========================================================= */
+/* RESET GERAL                                               */
+/* ========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+/* ========================================================= */
+/* CONFIGURAÇÕES GERAIS                                      */
+/* ========================================================= */
+
+body {
+
+    background-color: #f4f6f9;
+    color: #003366;
+
+    min-height: 100vh;
+}
+
+
+/* ========================================================= */
+/* CABEÇALHO                                                 */
+/* ========================================================= */
+
+header {
+
+    background-color: #003366;
+    color: white;
+
+    padding: 15px 20px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20);
+}
+
+
+.header-content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left-content {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.logo {
+    height: 60px;
+}
+
+.logo-direita {
+    height: 60px;
+}
+
+
+h1 {
+    font-size: 1.8rem;
+}
+
+
+/* ========================================================= */
+/* CONTEÚDO PRINCIPAL                                        */
+/* ========================================================= */
+
+main {
+
+    padding-bottom: 40px;
+}
+
+
+main h2 {
+
+    text-align: center;
+
+    margin: 35px 20px 40px;
+
+    color: #003366;
+
+    line-height: 1.4;
+
+    font-size: 2rem;
+}
+
+
+/* ========================================================= */
+/* GRID DE JOGOS                                             */
+/* ========================================================= */
+
+.games-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(260px, 1fr));
+
+    gap: 24px;
+
+    padding: 0 25px;
+}
+
+
+/* ========================================================= */
+/* CARD DOS JOGOS                                            */
+/* ========================================================= */
+
+.game-card {
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+
+    transition: all 0.25s ease;
+}
+
+
+.game-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+.game-card > a {
+
+    text-decoration: none;
+    color: #003366;
+}
+
+
+/* ========================================================= */
+/* IMAGEM DO JOGO                                            */
+/* ========================================================= */
+
+.game-card img {
+
+    width: 70%;
+    max-width: 180px;
+
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+
+    transition: transform 0.30s ease;
+}
+
+
+.game-card img:hover {
+
+    transform: scale(1.05);
+}
+
+
+/* ========================================================= */
+/* NOME DO JOGO                                              */
+/* ========================================================= */
+
+.game-card h3 {
+
+    margin: 15px 0;
+
+    min-height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #003366;
+
+    line-height: 1.3;
+}
+
+
+/* ========================================================= */
+/* ÁREA DOS BOTÕES                                           */
+/* ========================================================= */
+
+.card-buttons {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-top: 15px;
+}
+
+
+.card-buttons > * {
+
+    flex: 1;
+}
+
+
+.play-link {
+
+    text-decoration: none;
+}
+
+
+/* ========================================================= */
+/* BOTÃO JOGAR                                               */
+/* ========================================================= */
+
+.play-btn {
+
+    width: 100%;
+    height: 48px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #28a745;
+    color: white;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+
+.play-btn:hover {
+
+    background-color: #34c759;
+
+    transform: scale(1.03);
+}
+
+
+/* ========================================================= */
+/* BOTÃO O QUE É?                                            */
+/* ========================================================= */
+
+.info-btn {
+
+    width: 100%;
+    height: 48px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #dceeff;
+    color: #003366;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+
+.info-btn:hover {
+
+    background-color: #c6e4ff;
+
+    transform: scale(1.03);
+}
+
+
+/* ========================================================= */
+/* POPUP                                                     */
+/* ========================================================= */
+
+.popup {
+
+    display: none;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.65);
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 2000;
+
+    padding: 20px;
+}
+
+
+/* ========================================================= */
+/* CONTEÚDO DO POPUP                                         */
+/* ========================================================= */
+
+.popup-content {
+
+    background-color: white;
+
+    width: 90%;
+    max-width: 750px;
+
+    max-height: 85vh;
+
+    overflow-y: auto;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 25px rgba(0,0,0,0.30);
+
+    animation: popupFade 0.30s ease;
+}
+
+
+.popup-content h3 {
+
+    text-align: center;
+
+    color: #003366;
+
+    margin-bottom: 15px;
+}
+
+
+.popup-content p {
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+
+    white-space: pre-line;
+}
+
+
+.popup-content audio {
+
+    width: 100%;
+}
+
+
+/* ========================================================= */
+/* BOTÃO FECHAR POPUP                                        */
+/* ========================================================= */
+
+.close-btn {
+
+    float: right;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    color: #003366;
+}
+
+
+.close-btn:hover {
+
+    color: #ff9900;
+}
+
+
+/* ========================================================= */
+/* ANIMAÇÃO DO POPUP                                         */
+/* ========================================================= */
+
+@keyframes popupFade {
+
+    from {
+
+        opacity: 0;
+        transform: scale(0.90);
+    }
+
+    to {
+
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* ========================================================= */
+/* RODAPÉ                                                    */
+/* ========================================================= */
+
+footer {
+
+    background-color: #003366;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 12px;
+
+    margin-top: 20px;
+}
+
+
+/* ========================================================= */
+/* RESPONSIVIDADE                                            */
+/* ========================================================= */
+
+@media (max-width: 768px) {
+
+    .header-content {
+
+        flex-direction: column;
+        gap: 10px;
+
+        text-align: center;
+    }
+
+    .left-content {
+
+        flex-direction: column;
+    }
+
+    .logo,
+    .logo-direita {
+
+        height: 45px;
+    }
+
+    h1 {
+
+        font-size: 1.3rem;
+    }
+
+    main h2 {
+
+        font-size: 1.6rem;
+    }
+
+    .popup-content {
+
+        width: 95%;
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .games-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .game-card img {
+
+        width: 60%;
+    }
+
+    .card-buttons {
+
+        flex-direction: column;
+    }
+}

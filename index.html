@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- ===================================================== -->
+    <!-- CONFIGURAÇÕES DA PÁGINA                               -->
+    <!-- ===================================================== -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Universidade Cruzeiro do Sul - Projeto Mão na Massa
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Ícone -->
+    <link rel="icon" type="image/x-icon" href="imagem/ico.jpg">
+
+</head>
+
+<body>
+
+    <!-- ===================================================== -->
+    <!-- CABEÇALHO                                             -->
+    <!-- ===================================================== -->
+
+    <header>
+
+        <div class="header-content">
+
+            <div class="left-content">
+
+                <img
+                    src="imagem/logo_mao.png"
+                    alt="Projeto Mão na Massa"
+                    class="logo">
+
+                <h1>Projeto Mão na Massa</h1>
+
+            </div>
+
+            <img
+                src="imagem/cruz_topo.jpg"
+                alt="Universidade Cruzeiro do Sul"
+                class="logo-direita">
+
+        </div>
+
+    </header>
+
+    <!-- ===================================================== -->
+    <!-- CONTEÚDO PRINCIPAL                                    -->
+    <!-- ===================================================== -->
+
+    <main>
+
+        <h2>
+            Coletânia de Jogos dos Alunos da<br>
+            UNIVERSIDADE CRUZEIRO DO SUL
+        </h2>
+
+        <!--
+            Os cards serão criados automaticamente
+            pelo arquivo script.js
+        -->
+
+        <div
+            id="games-container"
+            class="games-grid">
+
+        </div>
+
+    </main>
+
+    <!-- ===================================================== -->
+    <!-- POPUP DE INFORMAÇÕES                                  -->
+    <!-- ===================================================== -->
+
+    <div
+        id="popup"
+        class="popup">
+
+        <div class="popup-content">
+
+            <span
+                class="close-btn"
+                onclick="fecharPopup()">
+
+                &times;
+
+            </span>
+
+            <h3 id="popup-titulo"></h3>
+
+            <p id="popup-descricao"></p>
+
+            <audio
+                id="popup-audio"
+                controls>
+
+                Seu navegador não suporta áudio.
+
+            </audio>
+
+        </div>
+
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- RODAPÉ                                                -->
+    <!-- ===================================================== -->
+
+    <footer>
+
+        Projeto Mão na Massa • Universidade Cruzeiro do Sul
+
+    </footer>
+
+    <!-- ===================================================== -->
+    <!-- JAVASCRIPT                                            -->
+    <!-- ===================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
