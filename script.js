@@ -299,7 +299,6 @@ function fecharPopup() {
     popup.style.display = "none";
 }
 
-
 /* ========================================================= */
 /* FECHAR POPUP CLICANDO FORA                                */
 /* ========================================================= */
@@ -309,12 +308,46 @@ window.addEventListener("click", function (event) {
     const popup =
         document.getElementById("popup");
 
+    const popupCreditos =
+        document.getElementById("popup-creditos");
+
     if (event.target === popup) {
 
         fecharPopup();
     }
 
+    if (event.target === popupCreditos) {
+
+        fecharCreditos();
+    }
+
 });
+
+
+/* ========================================================= */
+/* ABRIR CRÉDITOS                                            */
+/* ========================================================= */
+
+function abrirCreditos() {
+
+    document.getElementById(
+        "popup-creditos"
+    ).style.display = "flex";
+
+}
+
+/* ========================================================= */
+/* FECHAR CRÉDITOS                                           */
+/* ========================================================= */
+
+function fecharCreditos() {
+
+    document.getElementById(
+        "popup-creditos"
+    ).style.display = "none";
+
+}
+
 
 
 /* ========================================================= */

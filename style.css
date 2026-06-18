@@ -486,3 +486,64 @@ footer {
         flex-direction: column;
     }
 }
+
+/* ========================================================= */
+/* BOTÃO CRÉDITOS                                            */
+/* ========================================================= */
+
+.creditos-btn {
+
+    background-color: #ff9900;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.creditos-btn:hover {
+
+    background-color: #ffb733;
+
+    transform: scale(1.05);
+}
+
+.popup-content {
+/* ========================================================= */
+/* POPUP DE CRÉDITOS                                         */
+/* ========================================================= */
+
+.popup-creditos-content {
+
+    max-width: 700px;
+
+    width: 90%;
+
+    max-height: 95vh;
+
+    min-height: 70vh;
+}
+
+/* ========================================================= */
+/* TEXTO DOS CRÉDITOS                                        */
+/* ========================================================= */
+
+.creditos-texto {
+
+    line-height: 1.2;
+
+    white-space: normal;
+
+    margin-top: 20px;
+}
