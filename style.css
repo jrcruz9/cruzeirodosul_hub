@@ -88,15 +88,26 @@ main h2 {
 
     text-align: center;
 
-    margin: 35px 20px 40px;
+    margin: 15px 20px 15px;
 
     color: #003366;
 
-    line-height: 1.4;
+    line-height: 1.1;
 
     font-size: 2rem;
 }
+main h3 {
 
+    text-align: center;
+
+    margin: 15px 20px 20px;
+
+    color: #003366;
+
+    line-height: 1.2;
+
+    font-size: 1.25rem;
+}
 
 /* ========================================================= */
 /* GRID DE JOGOS                                             */

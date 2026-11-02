@@ -7,6 +7,197 @@
 */
 
 const jogos = [
+    {
+        id: 17,
+        titulo: "Gênio do Jogo",
+        descricao: "Você é um gênio da matemática? Em Gênios do Jogo, você encara desafios cheios de números e contas de um jeito divertido, cheio de surpresas e muita emoção! Primeiro, crie o seu perfil e escolha um avatar bem legal. A cada resposta certa, você ganha pontos e sobe no ranking, onde pode ver quem está arrasando. É muito fácil de usar: é só clicar e jogar, no seu ritmo, aprendendo sem nem perceber. Quantos pontos você consegue fazer? Vamos descobrir se você é o próximo Gênio do Jogo? \n\n Professor\n Área: Matemática (Exatas) \n Habilidades: Reforço dos conteúdos de matemática, Raciocínio lógico e Cálculo mental",
+        imagem: "imagem/17.gif",
+        audio: "voz/audio17.m4a",
+        link: "https://woat-stack-idwb-kge85e4tu-luccasas-projects.vercel.app"
+    },
+
+    {
+        id: 18,
+        titulo: "Pegadas do Brasil",
+        descricao: " Olá, explorador! Que tal fazer uma viagem super legal por todo o nosso país? No jogo Pegadas do Brasil, você escolhe o seu personagem e embarca em uma aventura cheia de descobertas! Quem te dá as boas-vindas é o Ari, uma arara muito esperta, mas a viagem é longa e você vai conhecer um amiguinho animal diferente em cada região do Brasil! Será que você consegue responder aos desafios deles e descobrir segredos sobre os bichos, as plantas, o clima e as festas de cada lugar? Você vai ouvir histórias, jogar várias brincadeiras divertidas e aprender passeando pelo nosso mapa. Venha deixar as suas pegadas nessa viagem incrível! \n\n Professor\n Área: Geografia, Cultura \n Habilidades: Regiões, fauna, flora, clima, cultura ",
+        imagem: "imagem/18.gif",
+        audio: "voz/audio18.m4a",
+        link: "https://pegadas-do-brasil.vercel.app"
+    },
+
+    {
+        id: 19,
+        titulo: "Jump Sky",
+        descricao: " Olá, aventureiro! Que tal testar a sua agilidade e o seu cálculo mental em uma viagem incrível? No jogo Jump Sky, você escolhe o seu personagem e embarca em um desafio vertical onde cada conta certa leva você para cenários totalmente diferentes! Será que você consegue superar todos os obstáculos, ver o seu ranking e ainda compartilhar com os colegas? Prepare-se, porque uma fase bônus cheia de surpresas está te esperando. Venha dar o próximo salto nessa aventura! \n\n Professor\n Área: Matemática \n Habilidades: Cálculo mental, raciocínio lógico e agilidade ",
+        imagem: "imagem/19.gif",
+        audio: "voz/audio19.m4a",
+        link: "https://jumpsky.vercel.app"
+    },
+
+    {
+        id: 20,
+        titulo: "Aventuras das Regiões do Brasil",
+        descricao: "Prepare-se para uma viagem divertida pelo Brasil! No jogo Aventura das Regiões do Brasil, você vai conhecer o Norte, o Nordeste, o Centro-Oeste, o Sudeste e o Sul enquanto cumpre missões e descobre paisagens, animais, plantas, culturas e curiosidades. Em cada região há um desafio diferente: combinar elementos da natureza, responder a perguntas, explorar mapas, montar um quebra-cabeça e testar seus conhecimentos. A cada conquista, você ganha uma medalha e avança na aventura. Chame sua curiosidade e venha explorar o Brasil! \n\n Professor\n Área: Geografia; cultura brasileira; meio ambiente e biodiversidade. \n Habilidades: Reconhecer regiões brasileiras, Interpretar mapas e Identificar características de biomas, paisagens, clima, fauna e flora ",
+        imagem: "imagem/20.gif",
+        audio: "voz/audio20.m4a",
+        link: "https://prototipo-gray-two.vercel.app"
+    },
+
+    {
+        id: 21,
+        titulo: "Arruma Bagunça",
+        descricao: "Que tal virar um super-herói da organização? Em Arruma a Bagunça, a sua missão é limpar a tela e deixar tudo no lugar certo! Mas fique atento: cada bagunça escondida é uma continha misteriosa que você precisa resolver. Arraste os objetos, faça as contas e veja a mágica acontecer! Quanto mais você arruma, mais aprende e deixa o nosso mundo muito mais bonito. Vamos aceitar esse desafio e colocar tudo em ordem? \n\n Professor\n Área: Matemática, Meio Ambiente, Cidadania e Convívio Social\n Habilidades: Operações Matemáticas, conscientização ecológica, organização e responsabilidade cidadã ",
+        imagem: "imagem/21.gif",
+        audio: "voz/audio21.m4a",
+        link: "https://arruma-a-bagunca.vercel.app"
+    },
+
+    {
+        id: 22,
+        titulo: "Esporte Kids",
+        descricao: "Você já pensou em ser um campeão de verdade? No Esporte Kids, você passa por cinco desafios esportivos: faz cestas no basquete, tenta enganar o goleiro nos pênaltis, pula barreiras e pega estrelas na corrida, rebate a bola no ping-pong e derruba os pinos no boliche.  Mas tem um segredo: a cada acerto, aparece uma dica sobre o esporte, e quem presta atenção vai bem no quiz e abre o próximo desafio. Aqui o jogo fica um pouquinho mais difícil conforme você aprende, e você ainda ganha estrelas e conquistas para completar o seu álbum. Será que você consegue chegar ao último jogo e virar Campeão Esporte Kids? \n\n Professor\n Área: Esportes, Educação Física e Matemática. \n Habilidades: Conhecimento das regras básicas de cinco esportes, Raciocínio matemático, Coordenação e atenção e Hábitos saudáveis e respeito ao outro ",
+        imagem: "imagem/22.gif",
+        audio: "voz/audio22.m4a",
+        link: "https://esportekids-frontend.vercel.app/home"
+    },
+
+    {
+        id: 23,
+        titulo: "Aventuras pelo Brasil",
+        descricao: "Prepare sua mochila e venha viver uma grande aventura pelo Brasil! Neste jogo, você se torna um explorador e embarca em uma jornada para conhecer melhor o nosso país. Durante o percurso, poderá explorar mapas, descobrir as regiões brasileiras, reconhecer paisagens e aprender sobre os biomas e a diversidade natural do Brasil. Para avançar na aventura, será necessário completar missões, responder a perguntas de múltipla escolha e utilizar seus conhecimentos para superar cada desafio. As respostas recebem um retorno educativo, ajudando o jogador a compreender melhor o conteúdo. Conforme progride, o você acumula pontos e desbloqueia novas etapas, tornando a experiência mais envolvente. O jogo foi pensado para apresentar conteúdos de forma interativa e divertida, estimulando sua curiosidade e a sua vontade de aprender. Você pode jogar em cinco idiomas diferentes e ainda, se precisar usar diversos recursos de acessibilidade. Será que você consegue completar todas as missões e conquistar o título de Grande Explorador? \n\n Professor\n Área: Geografia\n Habilidades: Orientação especial e interpretação de mapas, Reconhecimento de biomas e Compreensão de paisagens",
+        imagem: "imagem/23.gif",
+        audio: "voz/audio23.m4a",
+        link: "https://aventurapelobrasilv13filtroreforcad.vercel.app"
+    },
+
+    {
+        id: 24,
+        titulo: "Aventuras do Cosmo Bot",
+        descricao: "Você está pronto para embarcar em uma aventura cheia de desafios matemáticos com o CosmoBot? Explore 8 fases, resolva desafios de Matemática e descubra como aprender pode ser divertido! Escolha as operações matemáticas, peça dicas quando precisar de uma ajudinha e acompanhe seu progresso enquanto avança pelo jogo. Se quiser praticar novamente, você pode voltar às fases anteriores e tentar quantas vezes precisar. Não tenha medo de errar: cada desafio é uma nova oportunidade para aprender. Prepare-se para essa aventura e ajude o CosmoBot a superar os desafios! \n\n Professor\n Área:  Matemática. \n Habilidades: Resolução de operações matemáticas, Raciocínio lógico e resolução de problemas e Desenvolvimento da autonomia na aprendizagem ",
+        imagem: "imagem/24.gif",
+        audio: "voz/audio24.m4a",
+        link: "https://cosmo-bot-adventure.vercel.app"
+    },
+
+    {
+        id: 25,
+        titulo: "Cara a Cara Brasil",
+        descricao: "Você já parou para pensar em quem foram os primeiros moradores do Brasil? Em Cara a Cara, você vai conhecer rostos de pessoas dos povos originários, que cuidam da natureza e guardam histórias, costumes e tradições muito especiais. Um rosto secreto foi escolhido, e só você pode descobrir quem é! Observe cada detalhe, faça perguntas e vá eliminando quem não combina com as pistas. Enquanto brinca, você aprende mais sobre esses povos e sobre a nossa história. Você joga sem pressa, no seu próprio ritmo, e cada escolha é uma nova descoberta. Vamos descobrir quem está escondido? \n\n Professor\n Área: História do Brasil; Raciocínio Lógico; Linguagem \n Habilidades: Desenvolvimento do raciocínio lógico e dedutivo; Atenção e observação de detalhes; Classificação por características; Memória; Formulação de perguntas e ampliação do vocabulário.",
+        imagem: "imagem/25.gif",
+        audio: "voz/audio25.m4a",
+        link: "https://cara-a-cara-zeta.vercel.app"
+    },
+
+    {
+        id: 26,
+        titulo: "Matemática nas Nuvens",
+        descricao: "Que tal voar pelo céu em um balão e descobrir o mundo dos números? Em Matemática nas Nuvens, você viaja de nuvem em nuvem, resolve contas, completa sequências e desvenda probleminhas divertidos. Cada resposta certa vale estrelinhas, e você pode escolher um amigo para ler as perguntas em voz alta: tem coala, ratinho, fadinha, urso, robozinho e até alienzinho! Será que você consegue chegar ao Desafio Final e conquistar o prêmio especial? \n\n Professor\n Área: Matemática\n Habilidades: Contagem de números, Achar o número que vem antes e o que vem depois e Operações matemáticas: soma, subtração, multiplicação e divisão",
+        imagem: "imagem/26.gif",
+        audio: "voz/audio26.m4a",
+        link: "https://matematica-nas-nuvens-3ucq.vercel.app"
+    },
+
+    {
+        id: 27,
+        titulo: "Math Gol",
+        descricao: "Bora bater um pênalti? No MathGol, cada conta que você acerta vira uma chance de gol! Primeiro você monta o seu craque: escolhe um apelido, um avatar e o time do coração. Depois é só ir para a marca do pênalti. Aparece uma continha na tela resolva ela e, se acertar, você ganha o direito de cobrar. Aí escolhe o canto do gol, a altura do chute e a força, e manda pra rede! Cada gol enche a sua carteira de Cruzeiros, que é a moeda do jogo. E quanto mais rápido você responde, mais Cruzeiros você ganha. Com eles dá para comprar novos times, avatares e apelidos na Loja. São três fases para vencer: Pênaltis, Falta e a grande Final. A cada fase as contas ficam um pouquinho mais difíceis, do seu jeito, sem pressa. Será que você chega até o fim e vira o craque da matemática? \n\n Professor\n Área: Matemática\n Habilidades: Ensino das quatro operações matemáticas, cálculo mental com tempo e leitura de números de um e dois dígitos; progressão em doze níveis de aprendizagem ",
+        imagem: "imagem/27.gif",
+        audio: "voz/audio27.m4a",
+        link: "https://math-gol.vercel.app/HTML/index.html"
+    },
+
+    {
+        id: 28,
+        titulo: "Brasil em Jogo",
+        descricao: "Você conhece o Brasil? Escolha seu bichinho, que pode ser uma arara, uma onça, um jacaré e muito mais, e parta numa viagem pelas 5 regiões do nosso país! Descubra florestas gigantes, praias, o Pantanal, cidades enormes e lugares onde até neva. Aprenda sobre o clima, as festas e as comidas de cada cantinho do Brasil. Em cada fase tem um desafio de combinar as figuras, mas atenção: pense bem antes de escolher! Não tem cronômetro, então você joga no seu ritmo, e se quiser, o jogo lê as perguntas em voz alta pra você. Acerte pelo menos 20 perguntas e ganhe um certificado com o seu nome. Vamos explorar o Brasil? \n\n Professor\n Área: Geografia do Brasil\n Habilidades: Reconhecimento das 5 regiões do Brasil, Identificação das paisagens e Compreensão dos diferentes climas do país",
+        imagem: "imagem/28.gif",
+        audio: "voz/audio28.m4a",
+        link: "https://brasil-em-jogo-weld.vercel.app"
+    },
+
+    {
+        id: 29,
+        titulo: "Math Kids",
+        descricao: "Você é bom de conta? No Math Kids, você escolhe o seu personagem, entra com a sua senha secreta e parte para desafios de somar, diminuir, multiplicar e dividir! Para responder, é só escrever o número na lousa com o dedo ou com o mouse, do seu jeitinho, ou tocar nos números, se preferir. A cada acerto você ganha estrelas, faz combos e libera fases novas, e ainda pode colecionar medalhas e conquistas. Tem até continhas que contam histórinhas do dia a dia! Será que você consegue juntar todas as estrelas e abrir as fases extras? \n\n Professor\n Área: Matemática\n Habilidades: Ensino das quatro operações matemáticas, Cálculo mental e resolução de problemas e Escrita e reconhecimento dos números",
+        imagem: "imagem/29.gif",
+        audio: "voz/audio29.m4a",
+        link: "https://kids-sigma-nine.vercel.app"
+    },
+
+    {
+        id: 30,
+        titulo: "Aventuras Matemáticas",
+        descricao: "Que tal viver uma aventura super legal onde a Matemática é pura diversão? Em Aventuras Matemáticas, você vai encarar desafios e atividades empolgantes que tornam o aprendizado mais tranquilo, estimulante e no seu próprio ritmo, sem parecer uma obrigação! A cada passo, você aprende de forma gradual, desenvolve o raciocínio lógico, ganha mais confiança e participa de uma experiência muito mais agradável. Será que você está pronto para essa jornada? Venha descobrir como a Matemática pode ser incrível! \n\n Professor\n Área: Matemática\n Habilidades: Conhecimentos e Habilidade de Matemática, Raciocínio Lógico e estímulo de confiança",
+        imagem: "imagem/30.gif",
+        audio: "voz/audio30.m4a",
+        link: "https://aventuras-matematicas.vercel.app"
+    },
+
+    {
+        id: 31,
+        titulo: "Conexão Segura",
+        descricao: "Você sabe se proteger na internet? No Conexão Segura, você vira cartas com situações que podem acontecer com qualquer criança: um prêmio grátis bom demais para ser verdade, um estranho pedindo sua foto, uma senha fácil de adivinhar... Escolha se é SEGURO ou PERIGOSO e o seu personagem conta o porquê, quando você acerta e quando erra. Acerte várias seguidas para fazer combos, ganhe moedas para enfeitar seu personagem na loja e divirta-se também com a Memória Digital e a Corrida da Bolha. Será que você chega até a última fase e vira um Mestre da Segurança? \n\n Professor\n Área: Segurança digital e cidadania na internet\n Habilidades: Reconhecer golpes e situações de risco na internet, proteger dados pessoais e senhas, agir com respeito nas redes, tomar decisões com atenção e pedir ajuda a um adulto de confiança",
+        imagem: "imagem/31.gif",
+        audio: "voz/audio31.m4a",
+        link: "https://conexao-segura2.vercel.app"
+    },
+
+    {
+        id: 32,
+        titulo: "Calculoco",
+        descricao: "Pronto para uma aventura com os números? No Calculoco, você explora a Ilha da Adição, o Mercado da Subtração, a Selva da Multiplicação e o Vale da Divisão! Resolva as contas, escolha suas respostas e complete os desafios para liberar novos níveis. Pense, calcule, acerte e divirta-se nessa jornada matemática!\n\nProfessor\n Área: Matemática | Ensino Fundamental I \n Habilidades: Prática de adição, subtração, multiplicação e divisão; desenvolvimento do raciocínio lógico-matemático; interpretação de desafios; atenção e concentração na resolução de problemas. ",
+        imagem: "imagem/32.gif",
+        audio: "voz/audio32.m4a",
+        link: "https://calculoco.vercel.app/"
+    },
+
+    {
+        id: 33,
+        titulo: "Rota Brasil",
+        descricao: "Vamos explorar o Brasil com o Aê? Escolha o seu companheiro de viagem e ajude a expedição a seguir em frente! Monte a bússola e descubra onde ficam o Norte, o Sul, o Leste e o Oeste. Depois, descubra em qual região do Brasil mora cada paisagem, veja como o clima muda de um lugar para o outro e aprenda a separar o lixo na lixeira da cor certa. Se você errar, não tem problema: é só tentar de novo, no seu tempo. A cada acerto você ganha pontos e estrelas, e ainda tem um desafio bônus com os animais do Brasil esperando por você. Será que você consegue ganhar todas as estrelas?\n\n Professor\n Área: Geografia e Meio Ambiente\n Habilidades: pontos cardeais e uso da bússola, Conhecimento das regiões do Brasil e Reconhecimento de paisagens e de climas brasileiros",
+        imagem: "imagem/33.gif",
+        audio: "voz/audio33.m4a",
+        link: "https://rota-brasil-lemon.vercel.app"
+    },
+/*
+    {
+        id: 34,
+        titulo: "Aventuras da Matemática (incompleto)",
+        descricao: "xxxxxx\n\n Professor\n Área: xxxx\n Habilidades: xxxx ",
+        imagem: "imagem/34.gif",
+        audio: "voz/audio34.m4a",
+        link: "https://math-game-lime-six.vercel.app/"
+    },
+*/
+    {
+        id: 35,
+        titulo: "Baú do tempo",
+        descricao: " Abra os baús, encontre os pares e descubra histórias incríveis do Brasil! Em Baú do Tempo, você assume o papel de um explorador da nossa história enquanto joga um divertido jogo da memória. Cada carta conecta uma personalidade importante a um fato histórico marcante de forma leve e divertida. Você pode jogar no seu próprio ritmo, explorando sem pressa e acumulando pontos enquanto aprende. Será que você consegue encontrar todos os pares? \n\n Professor\n Área: História do Brasil\n Habilidades: Ensino de personalidades históricas, desenvolvimento da memória, associação de fatos e cronologia histórica de forma lúdica",
+        imagem: "imagem/35.gif",
+        audio: "voz/audio35.m4a",
+        link: "https://baudotempo.vercel.app"
+    },
+
+    {
+        id: 36,
+        titulo: "Cofrinho dos Sonhos",
+       descricao: "Você tem um sonho? Uma bicicleta, uma bola, livros de histórias ou um kit de pintura? No Cofrinho dos Sonhos, você recebe moedas e precisa decidir: comprar agora ou guardar para realizar o seu sonho? Resolva as continhas, faça boas escolhas e encha o seu cofrinho! Cada semana traz um desafio novo, e se não der certo na primeira vez, você pode tentar de novo, sem pressa e sem perder pontos. Será que você consegue chegar até a Feira Especial? \n\n Professor\n Área: Matemática e Educação Financeira \n Habilidades: Reconhecimento de problemas, Educação Financeira, Consumo consciente e Tomada de decisão",
+        imagem: "imagem/36.gif",
+        audio: "voz/audio36.m4a",
+        link: "https://cofrinhodossonhos.vercel.app/"
+    },
+
+/*
+    {
+        id: 37,
+        titulo: "----",
+        descricao: "xxxxxx\n\n Professor\n Área: xxxx\n Habilidades: xxxx ",
+        imagem: "imagem/37.gif",
+        audio: "voz/audio37.m4a",
+        link: "----"
+    },
+*/
+
 
     {
         id: 1,
