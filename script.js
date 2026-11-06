@@ -159,16 +159,16 @@ const jogos = [
         audio: "voz/audio33.m4a",
         link: "https://rota-brasil-lemon.vercel.app"
     },
-/*
+
     {
         id: 34,
-        titulo: "Aventuras da Matemática (incompleto)",
-        descricao: "xxxxxx\n\n Professor\n Área: xxxx\n Habilidades: xxxx ",
+        titulo: "O mundo do Byte",
+        descricao: "Ajude o Byte a chegar até o final dessa aventura! No computador, use as setas do teclado para andar, a tecla de espaço para pular e o botão de mudança de cor para alternar entre azul e laranja. No celular ou tablet, use os botões que aparecem na tela para andar, pular e mudar de cor! \n Escolha a cor certa para atravessar os obstáculos sem bater e responda às perguntas corretamente para ganhar pontos. São 4 fases incríveis e uma fase bônus esperando por você! Explore, divirta-se e mostre que você é capaz de completar essa missão!\n\n Professor\n Área: Matemática\n Habilidades: Calculo, Raciocínio Lógico, Coordenação motora fina.",
         imagem: "imagem/34.gif",
         audio: "voz/audio34.m4a",
-        link: "https://math-game-lime-six.vercel.app/"
+        link: "https://aventura-matematica-gray.vercel.app/"
     },
-*/
+
     {
         id: 35,
         titulo: "Baú do tempo",
@@ -187,16 +187,16 @@ const jogos = [
         link: "https://cofrinhodossonhos.vercel.app/"
     },
 
-/*
+
     {
         id: 37,
-        titulo: "----",
-        descricao: "xxxxxx\n\n Professor\n Área: xxxx\n Habilidades: xxxx ",
+        titulo: "Operação Mosquito Zero",
+        descricao: " Prepare-se para uma missão cheia de ação em Operação Mosquito Zero! Você será um agente no combate à dengue, enfrentando mosquitos e protegendo a comunidade. Explore o cenário, use seus ataques para eliminar os mosquitos e descubra por que é tão importante combater os focos de água parada. Aprenda enquanto joga e mostre que você tem coragem e conhecimento para ajudar a deixar o mundo livre da dengue! Você consegue completar essa missão?\n\n Professor\n Área: Saúde, Ciências e Educação Ambiental.\n Habilidades: Prevenção contra dengue, conscientização da comunidade ",
         imagem: "imagem/37.gif",
         audio: "voz/audio37.m4a",
-        link: "----"
+        link: "https://operacao-mosquito-zero-web.vercel.app"
     },
-*/
+
 
 
     {
